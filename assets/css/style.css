@@ -51,6 +51,11 @@ h1 {
     color: var(--blue1);
 }
 
+h2 {
+    font-weight: 500;
+    color: var(--blue1);
+}
+
 b {
     font-weight: 500;
 }
