@@ -27,12 +27,12 @@
             <div id="profile-intro">
                 <div id="profile-name">Tasha Pais</div>
                 <div id="profile-email">tdp74 at rutgers dot edu</div>
-                <p>
-                    I'm a fourth year Computer Science and Cognitive Science student at Rutgers University. I'm fortunate to be advised by Kostas Bekris and to be a member of the Physics-aware Research for Autonomous Computational Systems Lab (PracSys) at Rutgers. Here, I work on generative 3D research with Shiyang Lu.  </p>
-                    <p>I think robotics is a quest to understand the human mind. In addition to common robotics problems like learning, perception and reasoning, I've worked on neurolinguistics (language production in Broca's area) and mechanistic interpretability (vision transformers). </p>
-                    <p>My personal philosophy has changed a lot. Currently it most closely aligns with pyrrhonian skepticism, empty individualism, and absurdism. As we get closer to a post-scarcity world, I've thought a lot about what motivates me. For now, it's accelerating our understanding of cognition and more broadly building deeptech companies. </p>
-                    
-
+                <p>I'm graduating this May with degrees in <mark>Computer Science and Cognitive Neuroscience</mark> from Rutgers University. I'm fortunate to be advised by Kostas Bekris 
+                and to be a member of the Physics-aware Research for Autonomous Computational Systems Lab (PracSys) at Rutgers. Here, I work on <mark>generative 3D 
+                for robotics</mark> with Shiyang Lu. I think of robotics as a quest to understand the human mind, and computer vision specifically pieces apart our subjective experience of qualia.</p>
+                <p>My personal philosophy has changed a lot. Currently it most closely aligns with pyrrhonian skepticism, empty individualism, and absurdism. </p>
+                <p>As we get closer to a post-scarcity world, I've thought a lot about what motivates me. For now, it's accelerating our understanding of cognition 
+                and more broadly <mark>building deeptech companies</mark>-- ones that tackle frontier markets and involve extremely high scientific risk.</p>
                 <div>
                     <a href="assets/files/tashapais_cv.pdf">
                       CV
@@ -42,8 +42,21 @@
                     </a> /
                     <a href="https://github.com/tashapais">
                         Github
+                    </a> /
+                    <a href="https://www.linkedin.com/in/tashapais/">
+                        Linkedin
                     </a>
                     </a>
+                </div>
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <div>
+                        <!-- Your text content -->
+                        <br><p><b>Current projects as of March 27 2024:</b>
+                            <br>&nbsp;&nbsp;&bull;&nbsp;&nbsp; Figuring out whether I want to work in mech interp or a deep tech by building projects and talking to people 
+                            <br>&nbsp;&nbsp;&bull;&nbsp;&nbsp; Comparing attention mechanisms in RT1 and Vaswani et al to neural circuits with help from a cool prof
+                            <br>&nbsp;&nbsp;&bull;&nbsp;&nbsp; Writing about Marxism and how it applies to the tech industry through Andreesen, Balaji, Khosla, and Thiel 
+                        </p>
+                    </div>
                 </div>
             </div>
             <div style="clear: both;"></div>
@@ -51,7 +64,7 @@
         <div class="section" id="updates">
             <h1>Updates</h1>
             <ul>
-                    <li> <b>Sep 2023</b> Joined <a href='https://robotics.cs.rutgers.edu/pracsys/'>PracSys </a> mentored by <a href="https://scholar.google.com/citations?hl=en&user=pDH5AcsAAAAJ&view_op=list_works&sortby=pubdate">Shiyang Lu </a> and <a href="https://scholar.google.com/citations?hl=en&user=gwC7rCUAAAAJ&view_op=list_works&sortby=pubdate">Kostas Bekris </a></li>
+                    <li> <b>September 2023</b> Joined <a href='https://robotics.cs.rutgers.edu/pracsys/'>PracSys </a> mentored by <a href="https://scholar.google.com/citations?hl=en&user=pDH5AcsAAAAJ&view_op=list_works&sortby=pubdate">Shiyang Lu </a> and <a href="https://scholar.google.com/citations?hl=en&user=gwC7rCUAAAAJ&view_op=list_works&sortby=pubdate">Kostas Bekris </a></li>
                     <li> <b>July 2023</b> Finally got my <a href="ead.html"> EAD</a></li>
                     <li> <b>June 2023</b> Worked on tactile sensing at <a href='https://cair.cs.columbia.edu/'>CAIR </a> under <a href="https://jxu.ai/">Jingxi Xu </a> for a summer</li>
                     <li> <b>January 2022</b> Spent a year as a transfer student at Columbia University's School of Engineering in Manhattan</li>
@@ -114,71 +127,81 @@
         <div class="divider"></div>
         <div style="display:flex;flex-direction: column;" id="projects">
             <h1>Projects</h1>
-                <p><br>I'm currently working on these ideas:</br></p>
             <h2>Computational Robotics</h2>
                 <div>
+                    <a href="" style="height: 12em;" class="research-thumb">
+                        <img width="320" height="200" src="assets/images/ekf.gif" />
+                        <a href="https://github.com/tashapais/robotics-project3" class="research-proj-title">
+                            Implementations of Particle Filter, Kalman Filter, and Extended Kalman Filter for Localization
+                    </a>
                     <p>
-                        Generating control sequences within a robot’s limits and integrating forward with added noise, implementations of particle filter, kalman filter, and extended kalman filter for localization
+                        The project delves into sensor technologies for robotics, emphasizing localization and Bayesian reasoning for accurate 
+                        robot positioning. It explores Bayesian filtering techniques, applying them to occupancy grids for spatial representation 
+                        and navigation. The study further investigates particle filters and Kalman filters for dynamic system state estimation and 
+                        noise filtering. 
                         <br><b>December 2023</b></br>
                         <a href="assets/files/robotics_report_3.pdf">Report</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://github.com/tashapais/robotics-project3">Github</a></br>
                     </p>
                 </div>
                 <div>
+                    <a href="" style="height: 12em;" class="research-thumb">
+                        <img width="320" height="200" src="assets/images/rrt.gif" />
+                        <a href="https://github.com/tashapais/robotics-project2" class="research-proj-title">
+                            Computational Strategies in Robotic Motion Planning: PRM, PRM*, RRT, RRT*
+                    </a>
                     <p>
-                        RRT and PRM implementations for a rigid body with interpolation along a straight line in the c-space
+                        The project starts by implementing probabilistic roadmaps (PRM) and rapidly-exploring random trees (RRT). 
+                        It advances into asymptotically optimal sampling-based planners, integrating potential 
+                        functions for improved path efficiency. Additionally, it encompasses the challenges posed by non-holonomic and under-actuated systems, 
+                        to build a steerable kinematic model.
                         <br><b>November 2023</b></br>
                         <a href="assets/files/robotics_report_2.pdf">Report</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://github.com/tashapais/robotics-project2">Github</a></br>
                     </p>
                 </div>
                 <div>
+                    <a href="" style="height: 12em;" class="research-thumb">
+                        <img width="320" height="200" src="assets/images/raycast.gif" />
+                        <a href="https://github.com/tashapais/CS460-project1" class="research-proj-title">
+                            Collision-Free Navigation up to 6 dimensions R3 x SO(3)  
+                    </a>
                     <p>
-                        2d collision checking for convex polygons using ray casting, collision-free navigation using minkowski sums to compute configuration spaces up to SE2 dimensionality
+                        The project encapsulates the study and application of robotic path planning techniques, exploring grid-based search algorithms, 
+                        visibility graphs assessment, and combinatorial planning. It delves into spatial analysis through trapezoidal decomposition and 
+                        C-space introduction, abstracts these configuration spaces to simplify complex planning scenarios, and applies the foundational 
+                        concepts of sampling-based motion planning strategies.
                         <br><b>October 2023</b></br>
                         <a href="assets/files/robotics_report_1.pdf">Report</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://github.com/tashapais/CS460-project1">Github</a></br>
                     </p>
                 </div>
             <h2>Machine Learning</h2>
                 <div>
-                <a href="assets/files/ml_review.pdf">Jacobian Chain Rule and Linear Algebra Refresher</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="assets/images/ml_sheet.png">Everything I Know Written As Tiny As Possible</a><br>
-                </div>
-                <div>
-                <a>
-                    <img width="633" height="500" src="assets/images/ml_graph.png" /> 
-                </a>
-                </div>
-                <div
-                    <p>
-                        Bayes risk, gaussian based generative classifiers, implementing EM for GMM, comparing evaluation on diagonal and full covariance matrices
-                        <br><b>December 2023</b></br>
-                        <a href="assets/files/ml_5.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://drive.google.com/file/d/1Fh950Cq6WjvXq1NnuiLXRCZi7vPH28Wa/view?usp=sharing">Colab</a></br>
+                    <a href="" style="height: 12em;" class="research-thumb">
+                        <img width="320" height="200" src="assets/images/ml_graph.png" />
+                    <p><a href="assets/files/ml_review.pdf">Jacobian Chain Rule and Linear Algebra Refresher</a> </p> 
+                    <p><a href="assets/images/ml_sheet.png">Everything I Know Written As Tiny As Possible</a></p>    
+                    <p>Bayes risk, gaussian based generative classifiers, implementing EM for GMM, comparing evaluation on diagonal and full covariance matrices
+                        <br><b>December 2023</b>
+                        <a href="assets/files/ml_5.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://drive.google.com/file/d/1Fh950Cq6WjvXq1NnuiLXRCZi7vPH28Wa/view?usp=sharing">Colab</a><
                     </p>
-                </div>
-                <div>
                     <p>
                         Softmax over negative margins of the ensemble to derive adaboost, decision trees using gini impurities
-                        <br><b>November 2023</b></br>
-                        <a href="assets/files/ml_4.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://drive.google.com/file/d/1RRb0GnUGDA2QcsiLZJLkEa3MiF7DXr7v/view?usp=sharing">Colab</a></br>
+                        <br><b>November 2023</b>
+                        <a href="assets/files/ml_4.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://drive.google.com/file/d/1RRb0GnUGDA2QcsiLZJLkEa3MiF7DXr7v/view?usp=sharing">Colab</a>
                     </p>
-                </div>
-                <div>
                     <p>
                         Kernelized SVM in dual and primal form, kernel trick, vector representation of input text, stochastic subgradient descent using pegasos
-                        <br><b>November 2023</b></br>
-                        <a href="assets/files/ml_3.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1aoul39g2nRqqJVLIlo8TWIkRQXSbSzay?authuser=1">Colab</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="assets/files/ml_svms.pdf">Handwritten notes</a></br>
+                        <br><b>November 2023</b>
+                        <a href="assets/files/ml_3.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1aoul39g2nRqqJVLIlo8TWIkRQXSbSzay?authuser=1">Colab</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="assets/files/ml_svms.pdf">Handwritten notes</a>
                     </p>
-                </div>
-                <div>
                     <p>
                         Logistic regression models and equivalent softmax models, l2 regularization and cross entropy loss, negative log likelihood in forward pass, classification on MNIST
-                        <br><b>October 2023</b></br>
-                        <a href="assets/files/ml_2.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1PUL6NJMt8hkUaU1oNq_py2qHdfpPO4wH?authuser=1#scrollTo=0H-qOuprHtQF">Colab</a></br>
+                        <br><b>October 2023</b>
+                        <a href="assets/files/ml_2.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1PUL6NJMt8hkUaU1oNq_py2qHdfpPO4wH?authuser=1#scrollTo=0H-qOuprHtQF">Colab</a>
                     </p>
-                </div>
-                <div>
                     <p>
                         Least squares estimation, maximum likelihood estimation, asymmetric squared loss
-                        <br><b>September 2023</b></br>
-                        <a href="assets/files/ml_1.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1PUL6NJMt8hkUaU1oNq_py2qHdfpPO4wH?authuser=1#scrollTo=0H-qOuprHtQF">Colab</a></br>
+                        <br><b>September 2023</b>
+                        <a href="assets/files/ml_1.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1PUL6NJMt8hkUaU1oNq_py2qHdfpPO4wH?authuser=1#scrollTo=0H-qOuprHtQF">Colab</a>
                     </p>
                 </div>
             <h2>Operating Systems</h2>
@@ -186,7 +209,7 @@
                     <p>
                         Custom malloc for virtual address allocation; two-level page table for 32-bit address translation; direct-mapped TLB for efficient address translation caching; bit manipulation for efficient memory tracking; designed a 4-level page table for 64-bit addressing; ensured thread safety and compatibility with various page sizes, benchmarked using matrix multiplication.
                         <br><b>November 2023</b></br>
-                        <a href="assets/files/os_3.pdf">Report</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://github.com/tashapais/os-project3">Github</a>
+                        <a href="assets/files/os_3.pdf">Report</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://github.com/tashapais/os-project3">Github</a></br>
                     </p>
                 <div style="clear: both;"></div>            
                 </div>

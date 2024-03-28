@@ -64,7 +64,10 @@ strong {
     color: #fdc450;
     font-weight: 700;
 }
-
+mark {
+    background-color: pink;
+    color: black;
+  }
 
 /**************************************************/
 
