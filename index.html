@@ -15,10 +15,10 @@
     <div style="width:1000px;margin: 0px auto;">
         <header id="header" width="400px" style="display:flex;justify-content: space-around;">
             <a href="#profile-intro">Home</a>
-            <a href="#updates">Updates</a>
-            <a href="#research">Research</a>
             <a href="#projects">Projects</a>
             <a href="#art">Art</a>
+            <a href="blog.html">Blog</a>
+            <a href="books.html">Books</a>
         </header>
         <div id="profile">
             <div id="profile-pic">
@@ -177,35 +177,72 @@
                 <div>
                     <a href="" style="height: 12em;" class="research-thumb">
                         <img width="320" height="200" src="assets/images/ml_graph.png" />
-                    <p><a href="assets/files/ml_review.pdf">Jacobian Chain Rule and Linear Algebra Refresher</a> </p> 
-                    <p><a href="assets/images/ml_sheet.png">Everything I Know Written As Tiny As Possible</a></p>    
-                    <p>Bayes risk, gaussian based generative classifiers, implementing EM for GMM, comparing evaluation on diagonal and full covariance matrices
-                        <br><b>December 2023</b>
-                        <a href="assets/files/ml_5.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://drive.google.com/file/d/1Fh950Cq6WjvXq1NnuiLXRCZi7vPH28Wa/view?usp=sharing">Colab</a><
-                    </p>
+                    </a>
                     <p>
-                        Softmax over negative margins of the ensemble to derive adaboost, decision trees using gini impurities
-                        <br><b>November 2023</b>
-                        <a href="assets/files/ml_4.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://drive.google.com/file/d/1RRb0GnUGDA2QcsiLZJLkEa3MiF7DXr7v/view?usp=sharing">Colab</a>
+                        <p>Bayes risk, gaussian based generative classifiers, EM for GMM
+                            <br><a href="assets/files/ml_5.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1Fh950Cq6WjvXq1NnuiLXRCZi7vPH28Wa?authuser=1">Colab</a>
+                        </p>
+                        <p>
+                            Softmax over negative margins of the ensemble to derive adaboost
+                            <br><a href="assets/files/ml_4.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1RRb0GnUGDA2QcsiLZJLkEa3MiF7DXr7v?authuser=1">Colab</a>
+                        </p>
+                        <p>
+                            SVM in dual and primal, kernel trick, stochastic subgradient descent pegasos
+                            <br><a href="assets/files/ml_3.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1aoul39g2nRqqJVLIlo8TWIkRQXSbSzay?authuser=1">Colab</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="assets/files/ml_svms.pdf">Handwritten notes</a>
+                        </p>
+                        <p>
+                            l2 regularization, cross entropy loss, Large margin learning, representer theorem
+                            <br><a href="assets/files/ml_2.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1Mex38-Jd9mWfa9lpFOt2oXhnVabGmSRf?authuser=1">Colab</a>
+                        </p>
+                        <p>
+                            Least squares estimation, maximum likelihood, asymmetric squared loss
+                            <br><a href="assets/files/ml_1.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1PUL6NJMt8hkUaU1oNq_py2qHdfpPO4wH?authuser=1#scrollTo=0H-qOuprHtQF">Colab</a>
+                        </p>
+                        <br><a href="assets/files/ml_review.pdf">Jacobian Chain Rule and Linear Algebra Refresher</a>
+                        <br><a href="assets/images/ml_sheet.png">Everything I Know Written As Tiny As Possible</a>
                     </p>
+                </div>
+                <div>
+                    <p>* all projects were implemented on datasets like MNIST, CIFAR10, California housing, etc. and completed <b>Sep-Dec 2023</b></p>
+                </div>
+            <h2>Blockchain</h2>
+                <div>
+                    <a href="https://github.com/tashapais/solana-game" style="height: 12em;" class="research-thumb">
+                        <div class="video-container">
+                            <video loop autoplay muted src="assets/images/solana_game.mov" class="thumbnail-video">
+                        </div>
+                    </a>
+                    <a href="https://github.com/tashapais/solana-game" class="research-proj-title">
+                        Tile Stacking Game Using Three.js That Mints Highest Score on Phantom Wallet  
+                    </a>
                     <p>
-                        Kernelized SVM in dual and primal form, kernel trick, vector representation of input text, stochastic subgradient descent using pegasos
-                        <br><b>November 2023</b>
-                        <a href="assets/files/ml_3.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1aoul39g2nRqqJVLIlo8TWIkRQXSbSzay?authuser=1">Colab</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="assets/files/ml_svms.pdf">Handwritten notes</a>
+                        I built a Tile Stacking Game leveraging Three.js for its 3D graphics, making the gameplay visually engaging. On the frontend, I wrote the game logic in JavaScript, ensuring a smooth user experience. For the backend, I chose Node.js and Express.js to handle server-side operations and API requests. To integrate blockchain functionalities, especially for minting high scores as NFTs, I employed Solana's web3.js library and connected to the Phantom Wallet. 
+                        <br><b>May 2022</b></br>
+                        <a href="https://github.com/tashapais/solana-game">Github</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="solana-game.vercel.app">Link to play</a></br>
                     </p>
+                </div>
+                <div>
+                    <a href="https://github.com/tashapais/tactile-sensing-" style="height: 12em;" class="research-thumb">
+                        <div class="video-container">
+                            <video loop autoplay muted src="assets/images/qvoting.mov" class="thumbnail-video">
+                        </div>
+                    </a>
+                    <a href="https://github.com/tashapais/tactile-sensing-" class="research-proj-title">
+                        Quadratic Voting Application Deployed on Polygon Matic Testnet
+                    </a>
                     <p>
-                        Logistic regression models and equivalent softmax models, l2 regularization and cross entropy loss, negative log likelihood in forward pass, classification on MNIST
-                        <br><b>October 2023</b>
-                        <a href="assets/files/ml_2.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1PUL6NJMt8hkUaU1oNq_py2qHdfpPO4wH?authuser=1#scrollTo=0H-qOuprHtQF">Colab</a>
-                    </p>
-                    <p>
-                        Least squares estimation, maximum likelihood estimation, asymmetric squared loss
-                        <br><b>September 2023</b>
-                        <a href="assets/files/ml_1.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1PUL6NJMt8hkUaU1oNq_py2qHdfpPO4wH?authuser=1#scrollTo=0H-qOuprHtQF">Colab</a>
+                        Quadratic voting application deployed on polygon, developed in Hardhat and Next.js, smart contract tests written in solidity and javascript, inspired by Vitalik's blog post advocating for nonlinear cost functions
+                        <br><b>December 2022</b></br> 
+                        <a href="https://github.com/JernKunpittaya/qdVoting">Github</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://quadratic-voting-lyart.vercel.app/">Deployed link</a>
                     </p>
                 </div>
             <h2>Operating Systems</h2>
                 <div>
+                    <a href="" style="height: 12em;" class="research-thumb">
+                        <img width="320" height="200" src="assets/images/virtual_memory.gif" /> 
+                        <a href="https://github.com/tashapais/text2room" class="research-proj-title">
+                            Architecting Advanced Memory Management: From Custom Malloc to Multilevel Page Tables and TLB Caching 
+                    </a>
                     <p>
                         Custom malloc for virtual address allocation; two-level page table for 32-bit address translation; direct-mapped TLB for efficient address translation caching; bit manipulation for efficient memory tracking; designed a 4-level page table for 64-bit addressing; ensured thread safety and compatibility with various page sizes, benchmarked using matrix multiplication.
                         <br><b>November 2023</b></br>
@@ -214,34 +251,100 @@
                 <div style="clear: both;"></div>            
                 </div>
                 <div>
+                    <a href="" style="height: 12em;" class="research-thumb">
+                        <img width="320" height="200" src="assets/images/os2.gif" /> 
+                        <a href="https://github.com/tashapais/text2room" class="research-proj-title">
+                            Designing Concurrency: Advanced Thread Management and Scheduling Techniques 
+                    </a>
                     <p>
                         Thread creation, yielding, exiting, joining, and synchronization using mutexes; scheduling policies including Pre-emptive Shortest Job First (PSJF) and Multi-Level Feedback Queue (MLFQ); thread context management through makecontext, swapcontext, and ucontext APIs 
                         <br><b>October 2023</b></br>
                         <a href="assets/files/os_2.pdf">Report</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://github.com/tashapais/OS-project1">Github</a>
                     </p>
                 <div style="clear: both;"></div>            
-                </div>   
-            <h2>Blockchain </h2>
+                </div> 
+            <h2>Systems Programming</h2>
                 <div>
+                    <a href="" style="height: 12em;" class="research-thumb">
+                        <img width="320" height="200" src="assets/images/tictactoe.gif" /> 
+                        <a href="https://github.com/tashapais/tictactoe-online" class="research-proj-title">
+                            Design and Implementation of a Multiplayer Tic-Tac-Toe Game Service 
+                    </a>
                     <p>
-                        Quadratic voting application deployed on polygon, developed in Hardhat and Next.js, smart contract tests written in solidity and javascript, inspired by Vitalik's blog post advocating for nonlinear cost functions
-                        <br><b>December 2022</b></br>
-                        <a href="https://github.com/JernKunpittaya/qdVoting">Github</a>
+                        Advanced socket programming, multitasking (or select() for I/O multiplexing), and thread synchronization for secure, 
+                        simultaneous game state management. Extended functionality includes interruption handling via signals, specifically 
+                        using pthread_kill() to signal threads and pthread_sigmask() for signal reception control, leveraging SIGUSR1 and SIGUSR2 
+                        for managing blocked system calls. The game actually works through socket networking!
+                        <br><b>April 2023</b></br>
+                        <a href="https://github.com/tashapais/tictactoe-online">Github</a></br>
                     </p>
+                <div style="clear: both;"></div>            
                 </div>
+                <div>
+                    <a href="" style="height: 12em;" class="research-thumb">
+                        <img width="320" height="200" src="assets/images/shell.gif" /> 
+                        <a href="https://github.com/tashapais/myshell" class="research-proj-title">
+                            Recreating a Command-Line Shell 
+                    </a>
+                    <p>
+                        I designed and implemented a command-line shell akin to bash or zsh. I utilized Posix stream I/O for unbuffered input and output operations, manipulated the working directory, and spawned child processes to execute user commands while capturing their exit statuses. My implementation leveraged dup2() and pipe() for redirecting standard input and output, enabling the construction of pipelines between commands.
+                        <br><b>March 2023</b></br>
+                        <a href="https://github.com/tashapais/myshell">Github</a>
+                    </p>
+                <div style="clear: both;"></div>            
+                </div>  
+            <h2>Computer Architecture</h2>
+            <div>
+                <a href="" style="height: 12em;" class="research-thumb">
+                    <img width="320" height="200" src="assets/images/cache.gif" /> 
+                    <a href="https://github.com/tashapais/tictactoe-online" class="research-proj-title">
+                        Crafting a Cache Simulator: Direct-mapped, N-way and Fully Associative  
+                </a>
+                <p>
+                    This simulator dealt with simulating memory operations like reading and writing individual bytes, employing different cache mapping strategies, and implementing replacement policies. Specifically, it simulated write-through, write-allocate cache behavior, and introduced prefetching to improve spatial locality benefits. 
+                    <br><b>December 2021</b></br>
+                    <a href="https://github.com/tashapais/tictactoe-online">Github</a></br>
+                </p>
+            <div style="clear: both;"></div>            
+            </div>
+            <div>
+                <a href="" style="height: 12em;" class="research-thumb">
+                    <img width="320" height="200" src="assets/images/os1.gif" /> 
+                    <a href="https://github.com/tashapais/myshell" class="research-proj-title">
+                        Truth Table Generator for Digital Circuits in C 
+                </a>
+                <p>
+                    This program interprets a custom specification language describing circuits' inputs, outputs, and the logical gates connecting them. By efficiently parsing these descriptions, "truthtable" computes and prints all possible input combinations alongside their corresponding outputs, offering insights into the digital logic underlying the specified circuitry. 
+                    <br><b>November 2021</b></br>
+                    <a href="https://github.com/tashapais/myshell">Github</a>
+                </p>
+            </div>
+            <div>
+                <a href="" style="height: 12em;" class="research-thumb">
+                    <img width="320" height="200" src="assets/images/house_price.png" /> 
+                    <a href="https://github.com/tashapais/myshell" class="research-proj-title">
+                        Machine Learning: One-Shot Learning for Home Price Prediction in C
+                </a>
+                <p>
+                    Programming in C, Unix environment, File I/O, dynamic memory allocation, machine-learning algorithm implementation, Gauss-Jordan elimination, matrix handling, "one-shot" learning algorithm application, weight calculation from attributes, matrices for attribute and price representation, matrix transformation and inversion.
+                    <br><b>October 2021</b></br>
+                    <a href="https://github.com/tashapais/myshell">Github</a>
+                </p>
+            </div>
             <h2>Consulting</h2>
                 <div>
+                    <a href="" style="height: 12em;" class="research-thumb">
+                        <img width="320" height="200" src="assets/images/consulting.gif" /> 
+                        <a href="https://github.com/tashapais/text2room" class="research-proj-title">
+                            Building low-cost, cloud computing institutes in Dharavi, Mumbai in Partnership with UN SDG 12
+                    </a>
                         <p>
                             In partnership with the UN, presented at 2021 general assembly; building low-cost, cloud computing institutes in Dharavi, Mumbai; refer to slides 28 and 29 for break-even calculations with net output and capital cushions
                             <br><b>May 2021</b></br>
                         <a href="https://firebasestorage.googleapis.com/v0/b/tks-life-prod.appspot.com/o/items%2FT3dZmXVTU2NhRRT1kxlLRuRq6L32%2F%5BFinal%5D%20Tasha%2C%20Aasvhi%2C%20Shivam%2C%20Satvik%20_%20UN%20Challenge%20%20(1).pdf?alt=media&token=668d4172-f0ee-4113-ba96-e88259d4aa12">Deck</a>
                         </p>
                 </div>
-                
-                  
-            <div>
-                <p>click for<a href="projects.html"> more projects</a></p>
-            </div>            
+                       
             <div class="divider"></div>
             <div class="gallery">
                 <div id="art">
