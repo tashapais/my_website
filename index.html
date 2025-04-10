@@ -32,7 +32,7 @@
                 </p>
                 <p>I started as a <mark>firmware engineer</mark> and wrote the opus codec compression implementation and microcontroller configuration in C++  working with pcm16, 
                 buffer management in psram, and raw audio processing. My role later transitioned into <mark>iOS development</mark> using a strongly typed language called Dart 
-                that compiles to native ARM code for iOS using AOT (Ahead-of-Time) compilation, which gives Flutter its fast performance. I’ve worked with AWS private 
+                that compiles to native ARM code for iOS using AOT (Ahead-of-Time) compilation, which gives Flutter its fast performance. I've worked with AWS private 
                 objects, polling and webhooks, fine tuning our speech to text model based on audio embeddings, and function calling to enable our model to fetch data and take actions. 
                 </p>
                 <!-- <p>We're fortunate to have raised from prominent investors including 
@@ -42,7 +42,7 @@
                 under <a href='https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate'>Shuran Song</a> and <a href='https://scholar.google.com/citations?user=gwC7rCUAAAAJ&hl=en'>Kostas Bekris</a>. 
                 </p>
                 <p>My current interests most align with mechanistic <mark>interpretability of language models</mark> using lora adapter perturbations and cross-layer transcoders. 
-                As we get older, the gap between who we are and what we work on tends to widen. That’s why I try to meditate and do yoga before starting work. 
+                As we get older, the gap between who we are and what we work on tends to widen. That's why I try to meditate and do yoga before starting work. 
                 My personal philosophy has shifted over time; these days it leans toward pyrrhonian skepticism and a kind of empty individualism. In a world moving 
                 toward post-scarcity, what drives me most is accelerating our understanding of cognition.
                 </p>
@@ -177,36 +177,33 @@
                     </p>
                 </div>
             <h2>Machine Learning</h2>
-                <div>
-                    <a href="" style="height: 12em;" class="research-thumb">
+                <div style="display: flex; align-items: flex-start;">
+                    <a href="" style="height: 12em; flex-shrink: 0;" class="research-thumb">
                         <img width="320" height="200" src="assets/images/ml_graph.png" />
                     </a>
-                    <p>
-                        <p>Bayes risk, gaussian based generative classifiers, EM for GMM
-                            <br><a href="assets/files/ml_5.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1Fh950Cq6WjvXq1NnuiLXRCZi7vPH28Wa?authuser=1">Colab</a>
-                        </p>
-                        <p>
-                            Softmax over negative margins of the ensemble to derive adaboost
-                            <br><a href="assets/files/ml_4.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1RRb0GnUGDA2QcsiLZJLkEa3MiF7DXr7v?authuser=1">Colab</a>
-                        </p>
-                        <p>
-                            SVM in dual and primal, kernel trick, stochastic subgradient descent pegasos
-                            <br><a href="assets/files/ml_3.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1aoul39g2nRqqJVLIlo8TWIkRQXSbSzay?authuser=1">Colab</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="assets/files/ml_svms.pdf">Handwritten notes</a>
-                        </p>
-                        <p>
-                            l2 regularization, cross entropy loss, Large margin learning, representer theorem
-                            <br><a href="assets/files/ml_2.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1Mex38-Jd9mWfa9lpFOt2oXhnVabGmSRf?authuser=1">Colab</a>
-                        </p>
-                        <p>
-                            Least squares estimation, maximum likelihood, asymmetric squared loss
-                            <br><a href="assets/files/ml_1.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1PUL6NJMt8hkUaU1oNq_py2qHdfpPO4wH?authuser=1#scrollTo=0H-qOuprHtQF">Colab</a>
-                        </p>
-                        <br><a href="assets/files/ml_review.pdf">Jacobian Chain Rule and Linear Algebra Refresher</a>
-                        <br><a href="assets/images/ml_sheet.png">Everything I Know Written As Tiny As Possible</a>
-                    </p>
+                    <div style="margin-left: 5px;">
+                        Bayes risk, gaussian based generative classifiers, EM for GMM<br>
+                        <a href="assets/files/ml_5.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1Fh950Cq6WjvXq1NnuiLXRCZi7vPH28Wa?authuser=1">Colab</a><br>
+                        
+                        Softmax over negative margins of the ensemble to derive adaboost<br>
+                        <a href="assets/files/ml_4.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1RRb0GnUGDA2QcsiLZJLkEa3MiF7DXr7v?authuser=1">Colab</a><br>
+                        
+                        SVM in dual and primal, kernel trick, stochastic subgradient descent pegasos<br>
+                        <a href="assets/files/ml_3.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1aoul39g2nRqqJVLIlo8TWIkRQXSbSzay?authuser=1">Colab</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="assets/files/ml_svms.pdf">Handwritten notes</a><br>
+                        
+                        l2 regularization, cross entropy loss, Large margin learning, representer theorem<br>
+                        <a href="assets/files/ml_2.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1Mex38-Jd9mWfa9lpFOt2oXhnVabGmSRf?authuser=1">Colab</a><br>
+                        
+                        Least squares estimation, maximum likelihood, asymmetric squared loss<br>
+                        <a href="assets/files/ml_1.pdf">Proofs</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://colab.research.google.com/drive/1PUL6NJMt8hkUaU1oNq_py2qHdfpPO4wH?authuser=1#scrollTo=0H-qOuprHtQF">Colab</a><br>
+                        <b>Sep-Dec 2023</b><br><br>
+                    </div>
                 </div>
                 <div>
-                    <p>* all projects were implemented on datasets like MNIST, CIFAR10, California housing, etc. and completed <b>Sep-Dec 2023</b></p>
+                    <p>
+                    <a href="assets/files/ml_review.pdf">Jacobian Chain Rule and Linear Algebra Refresher</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="assets/images/ml_sheet.png">Everything I Know Written As Tiny As Possible</a><br>
+                    * all projects were implemented on datasets like MNIST, CIFAR10, California housing, etc.</p>
                 </div>
             <h2>Blockchain</h2>
                 <div>
